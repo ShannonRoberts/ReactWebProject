@@ -8,7 +8,7 @@ const Section = styled.section`
   padding: 4rem, 0rem;
 `;
 const Container = styled.div`
-    padding: 3rem calc((100vw-1300px) /2);
+
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows 400px;
@@ -31,6 +31,10 @@ const Title = styled.h1`
   font-size: 3.5rem;
   font-weight:700
   color:#1E2121;
+  @media screen and (max-width: 768px){
+    font-size:2rem;
+    margin-bottom:3rem;
+  }
 `;
 
 const GalleryItem = styled.div`
@@ -54,9 +58,25 @@ const GalleryItem = styled.div`
       img{
         height:400px;
         width: 400px;
+        @media screen and (max-width: 768px){
+          height: 250px;
+          width: 250px;
+        }
       }
       h3{
           text-align: center;
+          @media screen and (max-width: 768px){
+            text-align: left;
+            
+          }
+      }
+
+      @media screen and (max-width: 768px){
+        height: 300px;
+        width: 300px;
+        margin:0.2rem;
+        
+      }
       }
     
 `;

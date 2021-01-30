@@ -1,8 +1,8 @@
 {
-  "name": "react-lanscape-project",
+  "name": "react-web-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shannonroberts.github.io/reactwebapp",
+  "homepage": "https://shannonroberts.github.io/ReactWebProject/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-page -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

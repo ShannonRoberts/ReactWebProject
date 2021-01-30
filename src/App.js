@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <SimpleReactLightbox>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyle/>
       <Switch>
         <Route path='/' exact component={Home}/>

@@ -22,4 +22,9 @@ export const Button = styled(Link)`
     &:hover {
         transform: translateY(-2px);
     };
+
+    @media screen and (max-width: 768px){
+
+        margin-bottom:2rem;
+      }
 `;

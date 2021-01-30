@@ -27,6 +27,10 @@ const About = () => {
         font-size: 3.5rem;
         font-weight:700
         color:#1E2121;
+        @media screen and (max-width: 768px){
+          font-size:2rem;
+          margin-bottom:6.5rem;
+        }
         `;
   
     return (

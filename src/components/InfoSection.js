@@ -32,6 +32,10 @@ const ColumnLeft = styled.div`
   h1 {
     margin-bottom: 1rem;
     font-size: clamp(1.5rem, 6vw, 2rem);
+
+    @media screen and (max-width: 768px){
+      margin-top:6rem;
+    }
   }
 
   p {
@@ -40,6 +44,7 @@ const ColumnLeft = styled.div`
 
   img {
     margin-bottom: 20px;
+    
   }
 
   ul{
@@ -62,9 +67,18 @@ const ColumnRight = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     @media screen and (max-width: 768px){
         order: ${({ reverse }) => (reverse ? "2" : "1")};
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        padding-bottom: 5rem;
+        font-size: 2rem;
+        padding-top: 140px;
     }
 
     img{
@@ -85,7 +99,18 @@ const ColumnRight = styled.div`
 const Logo = styled.img`
   width: 25rem;
   height: 12.5rem;
+  
+
+  @media screen and (max-width: 768px){
+    width: 15rem;
+    height: 8rem;
+
+  }
 `;
+
+
+
+
 
 const InfoSection = ({
   heading,

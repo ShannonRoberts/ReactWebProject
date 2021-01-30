@@ -8,6 +8,10 @@ const Section = styled.section`
   width: 100%;
   height: 100%;
   padding: 4rem;
+
+  @media screen and (max-width: 768px){
+    padding:1rem;
+  }
 `;
 
 const Title = styled.h1`
@@ -42,6 +46,8 @@ const Testimonial = styled.div`
   padding: 2rem 3rem;
   background: linear-gradient(0deg, #0446B0 0%, #055BE3 50%, #0FC7D6 100%);
   opacity:0.9
+
+  
 `;
 
 const TContent = styled.div`

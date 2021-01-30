@@ -27,6 +27,10 @@ const Contact = () => {
     font-size: 3.5rem;
     font-weight: 700;
     color: #1e2121;
+    @media screen and (max-width: 768px){
+      font-size:2rem;
+
+    }
   `;
 
   const Logo = styled.img`
@@ -37,6 +41,11 @@ const Contact = () => {
     justify-content: center;
     align-items: center;
     margin-left: 2.5rem;
+    @media screen and (max-width: 768px){
+      width: 15rem;
+      height: 8rem;
+  
+    }
 `;
 
   const Section = styled.section`
@@ -99,6 +108,10 @@ const Para = styled.div`
   font-size: 2rem;
   font-weight: 300;
   color: #1e2121;
+  @media screen and (max-width: 768px){
+    font-size:1rem;
+
+  }
 `;
 
   return (

@@ -8,7 +8,7 @@ const ContactForm = () => {
     const Content = styled.div`
         width: 100%;
         height: 100%
-
+        
     `; 
 
     const Form = styled.form`
@@ -23,6 +23,11 @@ const ContactForm = () => {
         h1{
             padding: 1rem;
         }
+
+        @media screen and (max-width: 768px){
+            padding:0.5rem;
+            margin:0;
+          }
     `; 
 
     const FormInputs = styled.div`
