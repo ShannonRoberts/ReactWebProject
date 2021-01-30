@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/ReactWebProject/static/js/main.eabca150.chunk.js",
-    "main.js.map": "/ReactWebProject/static/js/main.eabca150.chunk.js.map",
-    "runtime-main.js": "/ReactWebProject/static/js/runtime-main.8bd95d43.js",
-    "runtime-main.js.map": "/ReactWebProject/static/js/runtime-main.8bd95d43.js.map",
+    "main.js": "/ReactWebProject/static/js/main.56c82127.chunk.js",
+    "main.js.map": "/ReactWebProject/static/js/main.56c82127.chunk.js.map",
+    "runtime-main.js": "/ReactWebProject/static/js/runtime-main.54b677c0.js",
+    "runtime-main.js.map": "/ReactWebProject/static/js/runtime-main.54b677c0.js.map",
     "static/css/2.f43c19f8.chunk.css": "/ReactWebProject/static/css/2.f43c19f8.chunk.css",
-    "static/js/2.7104daa8.chunk.js": "/ReactWebProject/static/js/2.7104daa8.chunk.js",
-    "static/js/2.7104daa8.chunk.js.map": "/ReactWebProject/static/js/2.7104daa8.chunk.js.map",
-    "static/js/3.690ab784.chunk.js": "/ReactWebProject/static/js/3.690ab784.chunk.js",
-    "static/js/3.690ab784.chunk.js.map": "/ReactWebProject/static/js/3.690ab784.chunk.js.map",
+    "static/js/2.6bd4e8ae.chunk.js": "/ReactWebProject/static/js/2.6bd4e8ae.chunk.js",
+    "static/js/2.6bd4e8ae.chunk.js.map": "/ReactWebProject/static/js/2.6bd4e8ae.chunk.js.map",
+    "static/js/3.6a3c9c46.chunk.js": "/ReactWebProject/static/js/3.6a3c9c46.chunk.js",
+    "static/js/3.6a3c9c46.chunk.js.map": "/ReactWebProject/static/js/3.6a3c9c46.chunk.js.map",
     "index.html": "/ReactWebProject/index.html",
     "static/css/2.f43c19f8.chunk.css.map": "/ReactWebProject/static/css/2.f43c19f8.chunk.css.map",
-    "static/js/2.7104daa8.chunk.js.LICENSE.txt": "/ReactWebProject/static/js/2.7104daa8.chunk.js.LICENSE.txt",
+    "static/js/2.6bd4e8ae.chunk.js.LICENSE.txt": "/ReactWebProject/static/js/2.6bd4e8ae.chunk.js.LICENSE.txt",
     "static/media/camera.542b0eed.jpg": "/ReactWebProject/static/media/camera.542b0eed.jpg",
     "static/media/city.8908c0ec.jpg": "/ReactWebProject/static/media/city.8908c0ec.jpg",
     "static/media/design.3c13aaa1.jpg": "/ReactWebProject/static/media/design.3c13aaa1.jpg",
@@ -31,9 +31,9 @@
     "static/media/typo.ec28335f.jpg": "/ReactWebProject/static/media/typo.ec28335f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8bd95d43.js",
+    "static/js/runtime-main.54b677c0.js",
     "static/css/2.f43c19f8.chunk.css",
-    "static/js/2.7104daa8.chunk.js",
-    "static/js/main.eabca150.chunk.js"
+    "static/js/2.6bd4e8ae.chunk.js",
+    "static/js/main.56c82127.chunk.js"
   ]
 }
