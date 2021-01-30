@@ -18,13 +18,9 @@ export const Button = styled(Link)`
     color: ${({primary}) => (primary ? '#fff' : '#fff')};
     font-size: ${({big}) => (big ? '24px' : '14px')};
     border-radius: 5px;
-
+    z-index: 99;
     &:hover {
         transform: translateY(-2px);
     };
 
-    @media screen and (max-width: 768px){
-
-        margin-bottom:2rem;
-      }
 `;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router ,Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer';
 import GlobalStyle from './globalStyle';
 import About from './pages/About';
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <SimpleReactLightbox>
-    <Router basename={process.env.PUBLIC_URL}>
+
       <GlobalStyle/>
       <Switch>
         <Route path='/' exact component={Home}/>
@@ -25,7 +25,7 @@ function App() {
         <Route path='/contact' exact component={Contact}/>
       </Switch>
       <Footer/>
-    </Router>
+
     </SimpleReactLightbox>
     
     </>

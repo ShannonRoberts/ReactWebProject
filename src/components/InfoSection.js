@@ -34,7 +34,7 @@ const ColumnLeft = styled.div`
     font-size: clamp(1.5rem, 6vw, 2rem);
 
     @media screen and (max-width: 768px){
-      margin-top:6rem;
+      margin-top:2rem;
     }
   }
 
@@ -99,16 +99,18 @@ const ColumnRight = styled.div`
 const Logo = styled.img`
   width: 25rem;
   height: 12.5rem;
-  
 
   @media screen and (max-width: 768px){
     width: 15rem;
     height: 8rem;
-
+    margin-top: 9rem;
   }
 `;
 
-
+const BtnWrap = styled.div`
+    display: flex;
+    justify-content: center;
+`
 
 
 
@@ -142,10 +144,12 @@ const InfoSection = ({
               ))}
             </ul>
           ) : <p>{paragraphTwo}</p>}
-
-          <Button to={path} primary="true">
+          <BtnWrap>
+          <Button to={path}  primary="true">
             {buttonLabel}
           </Button>
+          </BtnWrap>
+          
         </ColumnLeft>
         <ColumnRight
           reverse={reverse}
